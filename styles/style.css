@@ -1,0 +1,72 @@
+/* Universal Selector  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common class  */
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+.my-btn {
+    border-radius: 8px;
+    padding: 9px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 106, 80, 1);
+    color: rgba(0, 106, 80, 1);
+    cursor: pointer;
+    background-color: white;
+}
+
+/* Header section  */
+
+header {
+      background-color: rgba(79, 79, 68, 0.107);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    
+} 
+.link-parent {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.link-parent a {
+    text-decoration: none;
+}
+.link-parent a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Hero section  */
+
+.hero-parent {
+    display: flex;
+    background-color: #006a5021;
+    border-radius: 25px;
+    padding-top: 30px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-child {
+    font-size: 20px;
+    font-weight: 600px;
+    gap: 20px;
+    padding:10px;
+    color: #757575;
+}
+.hero-parent h2 {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500px;
+}
