@@ -8,7 +8,7 @@
 
 /* common class  */
 .container {
-    max-width: 750px;
+    max-width: 1100px;
     margin: auto;
 }
 .my-btn {
@@ -19,6 +19,14 @@
     color: rgba(0, 106, 80, 1);
     cursor: pointer;
     background-color: white;
+}
+.my-btn-2 {
+    border-radius: 8px;
+    font-weight: 600;
+    background: rgba(0, 106, 80, 1);
+    cursor: pointer;
+    color: white;
+    padding: 12px 25px;
 }
 
 /* Header section  */
@@ -51,12 +59,14 @@ nav {
 
 .hero-parent {
     display: flex;
-    background-color: #006a5021;
     border-radius: 25px;
     padding-top: 30px;
     margin-top: 20px;
     justify-content: space-between;
+    background: rgba(198, 228, 2214, 1);
     align-items: center;
+    padding: 70px;
+    margin: 20px auto;
 }
 .hero-child {
     font-size: 20px;
@@ -68,5 +78,173 @@ nav {
 .hero-parent h2 {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
-    font-weight: 500px;
+    font-weight: 500;
+}
+.hero-parent p {
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 56px;
+    color: rgba(14, 14, 14, 1);
+    margin: 20px 0;
+}
+.hero-parent .my-btn {
+    background-color: rgba(0, 106, 80, 1);
+    color:white;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+/* Pillars of Bangladesh section  */
+
+.pillars-of-Bangladesh-parent {
+    margin: 80px auto;
+    background: rgba(255, 255, 255, 1);;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+.pillar-card-parent {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pillar-section-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pillar-card {
+    background-color: white;
+    border-radius:12px ;
+    padding: 12px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.pillar-card img {
+    width: 80px;
+    height: 80px;
+
+}
+.pillar-card p {
+    color: #1818189d;
+}
+
+/* Future section  */
+
+.future-section-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.future-para {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 1280px;
+    height: 48px;
+
+}
+.future-card-parent {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap; 
+    justify-content: center;
+}
+
+.future-card {
+    flex: 1; 
+    min-width: 250px; 
+    padding: 32px;
+    margin: 16px;
+    border: 1px solid #757575;
+    border-radius: 16px;
+}
+
+.bg-1 {
+    background: rgba(84, 144, 245, 0.2);
+}
+.bg-2{
+    background: rgba(198, 228, 214, 1);
+}
+.bg-3 {
+    background: rgba(247, 235, 207, 1);
+}
+
+.future-card .my-btn {
+    color:white;
+    padding: 10px;
+    margin: 4px;
+}
+.future-card h2 {
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.future-card p {
+color: rgba(14, 14, 14, 0.308);
+font-family: Fira Sans;
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.priminister {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+   padding: 40px 20px 40px 20px;
+   gap: 24;
+   border: 1px solid rgba(14, 14, 14, 0.15);
+   background: rgba(255, 255, 255, 1); 
+    
+}
+.pg {
+color: rgba(14, 14, 14, 0.626);
+font-family: Fira Sans;
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 18px 0;
+padding: 13px;
+}
+.heading p {
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.heading h2 {
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 }
